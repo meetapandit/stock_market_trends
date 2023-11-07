@@ -1,0 +1,11 @@
+	.ipynb_checkpoints/
+	__pycache__/
+	app_test.py
+	cloud_run_service_account.json
+	extract_stockmarket_data.py
+	my-credentials.json
+	namenode_logs.txt
+	stockmarket_data.json
+	transform_stockmarket_data.py
+	visualize.py
+	visualize_v2.py
