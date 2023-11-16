@@ -1,5 +1,5 @@
 # Stock Market Trends
-This project aims at exploring various components of data engineering like extraction, and storage using Gooogle Cloud Storage and hosted on Google Cloud Run. The visualization is built using Plotly's Dash library.
+This project aims at exploring various components of data engineering like extraction, and storage using Google Cloud Storage and hosted on Google Cloud Run. The visualization is built using Plotly's Dash library.
 [Link to Stock Market Dashboard](https://stock-market-app-mp-mx26i3fsrq-uc.a.run.app/)
 
 <img width="1423" alt="Screenshot 2023-11-07 at 4 42 29 PM" src="https://github.com/meetapandit/stock_market_trends/assets/15186489/e4623cd4-7263-4b5f-8ff9-39d1105ed747">
