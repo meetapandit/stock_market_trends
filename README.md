@@ -19,7 +19,7 @@ This project aims at exploring various components of data engineering like extra
 
 ### EDA 
   - Performed EDA using Jupyter notebook to get stats about the sample dataset like column datatypes, distribution of values in each column, and identifying null values
-  - During this process I realized that due to stock split some data points were missing or had higher than normal range of values for the specific timeframe when the split took place
+  - During this process, I realized that due to stock split some data points were missing or had higher than normal range of values for the specific timeframe when the split took place
 
 ### Data Cleaning and Transformation
   - Each JSON format downloaded has metadata information at the beginning of the file which is removed during the data-cleaning process
@@ -30,6 +30,12 @@ This project aims at exploring various components of data engineering like extra
 ### Transformation
   - The CSV is read as a pandas dataframe and updated to add new columns for week start date, week end date, year, and week number to be able to calculate different time frames (1W, 1M,3M etc) in the visualization easily
   - The transformed dataframe is saved to Google Cloud Storage for visualization
+
+### Orchestration using Airflow
+- The extraction and transformation steps are scheduled in Airflow
+- The DAG is running manually but can be scheduled to run to update stock market data daily by the end of market close
+
+<img width="1018" alt="Screenshot 2023-12-01 at 6 54 13 PM" src="https://github.com/meetapandit/stock_market_trends/assets/15186489/c81e6c6c-8bed-4b49-a6ab-f807178c4dbc">
 
 ### Visualization using Plotly's Dash Library
   - An interactive visualization is created using Dash library in Python to analyze the trends in stocks for the different timeframes
