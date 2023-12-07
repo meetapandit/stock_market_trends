@@ -99,6 +99,7 @@ def extract_stock_data():
                 df_stockmarket_all_columns = pd.DataFrame(df_stockmarket_all_columns)
                 
                 # From second tickr symbol onwards append the current rows to data stored from previous step
+                print("df stockmarket final created")
                 df_stockmarket_all_final = pd.concat([df_stockmarket_all_columns,df_stockmarket_all_columns_previous.loc[:]]).reset_index(drop=True)
                 
                 # Copy the newly appended df into previous_df and repeat the process until we have data for all symbols
