@@ -11,7 +11,7 @@ This project aims at exploring various components of data engineering like extra
 ## Final Dataflow diagram
 ![final_architecture](https://github.com/meetapandit/stock_market_trends/assets/15186489/582cfeb2-1564-498b-b6f1-3dbab7fb3160)
 
-- The data is downloaded in JSON format using the AlphaAdvantageStock API: [Example link](https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=IBM&outputsize=full&apikey=demo)
+- The data is downloaded in JSON format using the AlphaVantageStock API: [Example link](https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=IBM&outputsize=full&apikey=demo)
 - The API downloads data for each stock. To make the dashboard more user-friendly I added more stocks by scraping the stocks list from [Stock Analysis](https://stockanalysis.com/list/biggest-companies/)
 
 ### High-level Workflow
